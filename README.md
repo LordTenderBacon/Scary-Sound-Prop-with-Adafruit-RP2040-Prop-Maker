@@ -55,4 +55,4 @@ Then we will take that raw data and convert it int C-Arrary for our code to run 
 
 17. If done correctly after a couple seconds you should see a new files in your folder with your c-array open that in a notepad and copy it into the main code where it says in the Propmaker project
 
-![Capture of the setup]([https://user-images.githubusercontent.com/yourusername/imagehash.png](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/804db1c28a2784631b4bd8cdda2664431bfb2219/Images/Capture.PNG)
+![Capture of the setup](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/804db1c28a2784631b4bd8cdda2664431bfb2219/Images/Capture.PNG)
