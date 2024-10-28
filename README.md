@@ -5,7 +5,7 @@ A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPix
 # PLEASE NOTE THERE IS CURRENTLY NO AUDIO DATA IN PROJECT
 There is a place holder in the code where you can put your own c-array data after following the instructions provided below to get the required format. Github sadly does not allow large codes like the data in c-array
 
-Put the audio data directly where it says in the main code file. It is in C Array I will provide a convert.py you can download to your desktop. Follow the instructions below exactly if you are converting a .wav to raw c arrary.
+Put the audio data directly where it says in the main code file. It is in C Array I will provide a convert.py you can download to your desktop. Follow the instructions below exactly if you are converting a .wav to raw c arrary. Also make sure the start of your c-array data starts with const uint8_t laughAudioData[] = {
 
 
 ## Features
