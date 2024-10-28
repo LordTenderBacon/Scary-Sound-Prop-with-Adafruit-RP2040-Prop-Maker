@@ -1,23 +1,17 @@
-import sys
-import os
+# Python script to convert raw audio data to a header file for your project
+output_file = r"C:\Users\media\Desktop\CONVERT WAV TO RAW\audio_data.h"
 
-if len(sys.argv) < 3:
-    print("Usage: python convert_raw_to_c_array.py input_file output_file")
-    sys.exit(1)
+with open(r"C:\Users\media\Desktop\CONVERT WAV TO RAW\audio.raw", "rb") as f:
+    raw_data = f.read()
 
-input_file = sys.argv[1]
-output_file = sys.argv[2]
+with open(output_file, "w") as f:
+    f.write("unsigned char audio_data[] = {\n")
+    for i, byte in enumerate(raw_data):
+        f.write(f"0x{byte:02x}")
+        if i != len(raw_data) - 1:
+            f.write(", ")
+        if (i + 1) % 12 == 0:
+            f.write("\n")
+    f.write("\n};\n")
 
-if not os.path.isfile(input_file):
-    print(f"Error: File '{input_file}' does not exist.")
-    sys.exit(1)
-
-with open(input_file, 'rb') as f:
-    data = f.read()
-
-data_list = [b for b in data]
-
-with open(output_file, 'w') as f:
-    f.write(', '.join(str(b) for b in data_list))
-
-print(f"Data successfully written to '{output_file}'.")
+print(f"Header file created: {output_file}")
