@@ -16,3 +16,41 @@ A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPix
 - 4-ohm speaker - https://www.microcenter.com/product/631684/grs-3fr-4-full-range-3-speaker-4-ohm
 - 3.7V 2200mAh lithium battery - https://www.microcenter.com/product/636273/adafruit-industries-lithium-ion-cylindrical-battery-37v-2200mah
 - Servo motor (optional)
+
+
+Follow These instructions below to convert your sound to raw from what ever format its in like MP4 to raw or WAV to raw. 
+Then we will take that raw data and convert it int C-Arrary for our code to run the sound you want
+
+1. We need to download Audacity the free version
+
+2. Once downloaded upload/import your sound and make sure its sounds good.
+
+3. Export your Audio to your computer and name it audio.raw
+
+4. Select the "Other uncompressed Files"
+
+5. Select Mono
+
+6. Sample Rate should be 48000Hz
+
+7. Header RAW (HeaderLess)
+
+8. Encoding should be signed 8-bit PCM
+
+9. Export Entire Project
+
+10. (optional to select trime blank space) I do on certain audios that i have blank playback issues with
+
+11. Install Python on your PC if you havnt already
+
+12.Go to folder where you exported your raw audio data to 
+
+13. create a new text document and label it convert_raw_to_c_array.py
+
+14. open the file and insert the python code from the .py file provided and save it
+
+15. Open a Terminal window and navigate to the folder with your code and files you created using "cd" Exmaple "cd Documents/code"
+
+16. Type in python convert_raw_to_c_array.py audio.raw audio_data.txt
+
+17. If done correctly after a couple seconds you should see a new files in your folder with your c-array open that in a notepad and copy it into the main code where it says in the Propmaker project
