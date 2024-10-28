@@ -3,7 +3,8 @@ A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPix
 
 (This Project assumes you know some basic C++, Python and Arduino IDE) I did my best to lay out the steps i took to get the results in this video
 
-[![Watch the Demo on YouTube](https://img.youtube.com/vi/MXi40_avDd0/0.jpg)](https://www.youtube.com/watch?v=MXi40_avDd0&autoplay=1)
+[![Watch the Demo on YouTube](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/main/Images/demo-thumbnail-play.jpg)](https://www.youtube.com/watch?v=MXi40_avDd0&autoplay=1)
+
 
 
 # PLEASE NOTE YOU HAVE TO ADD THE AUDIO DATA TO THE MAIN CODE
