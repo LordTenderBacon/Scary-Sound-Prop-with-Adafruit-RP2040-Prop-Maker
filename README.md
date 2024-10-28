@@ -43,7 +43,7 @@ Then we will take that raw data and convert it int C-Arrary for our code to run 
 
 11. Install Python on your PC if you havnt already
 
-12.Go to folder where you exported your raw audio data to 
+ 12.Go to folder where you exported your raw audio data to 
 
 13. create a new text document and label it convert_raw_to_c_array.py
 
