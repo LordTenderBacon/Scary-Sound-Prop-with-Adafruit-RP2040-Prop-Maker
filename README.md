@@ -1,10 +1,11 @@
+# Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker
+A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPixel ring, a 4-ohm speaker, and a 3.7V 2200mAh lithium battery. This prop plays a scary voice or sound effect (easily customizable) and controls a servo. The NeoPixel ring lights up in sync with the audio for a spooky effect!
+
 
 # PLEASE NOTE THERE IS CURRENTLY NO AUDIO DATA IN THIS FILE MUST REPLACE WITH YOUR OWN! 
 
 Put the audio data directly where it says in the main code file. It is in C Array I will provide a convert.py you can download to your desktop. Follow the instructions below exactly if you are converting a .wav to raw c arrary.
 
-# Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker
-A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPixel ring, a 4-ohm speaker, and a 3.7V 2200mAh lithium battery. This prop plays a scary voice or sound effect (easily customizable) and controls a servo. The NeoPixel ring lights up in sync with the audio for a spooky effect!
 
 ## Features
 - **Customizable Sounds**: Easily swap sound files to play different effects.
