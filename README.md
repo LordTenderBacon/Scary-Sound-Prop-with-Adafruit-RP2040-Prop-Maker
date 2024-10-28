@@ -38,10 +38,14 @@ Then we will take that raw data and convert it int C-Arrary for our code to run 
 8. Encoding should be signed 8-bit PCM
 
 9. Export Entire Project
+Image Of what your settings should look like on Export
 
-10. (optional to select trime blank space) I do on certain audios that i have blank playback issues with
+![Capture of the setup](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/804db1c28a2784631b4bd8cdda2664431bfb2219/Images/Capture.PNG)
 
-11. Install Python on your PC if you havnt already
+
+11. (optional to select trime blank space) I do on certain audios that i have blank playback issues with
+
+12. Install Python on your PC if you havnt already
 
  12.Go to folder where you exported your raw audio data to 
 
@@ -54,5 +58,3 @@ Then we will take that raw data and convert it int C-Arrary for our code to run 
 16. Type in python convert_raw_to_c_array.py audio.raw audio_data.txt
 
 17. If done correctly after a couple seconds you should see a new files in your folder with your c-array open that in a notepad and copy it into the main code where it says in the Propmaker project
-
-![Capture of the setup](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/804db1c28a2784631b4bd8cdda2664431bfb2219/Images/Capture.PNG)
