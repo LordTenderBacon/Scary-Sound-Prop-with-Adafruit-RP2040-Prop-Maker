@@ -1,5 +1,7 @@
 
-# PLEASE NOTE THERE IS CURRENTLY NO AUDIO DATA IN THIS FILE MUST REPLACE WITH YOUR OWN! Put the audio data directly where it says in the main code file. It is in C Array I will provide a convert.py you can download to your desktop. Follow the instructions below exactly if you are converting a .wav to raw c arrary in un
+# PLEASE NOTE THERE IS CURRENTLY NO AUDIO DATA IN THIS FILE MUST REPLACE WITH YOUR OWN! 
+
+Put the audio data directly where it says in the main code file. It is in C Array I will provide a convert.py you can download to your desktop. Follow the instructions below exactly if you are converting a .wav to raw c arrary.
 
 # Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker
 A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPixel ring, a 4-ohm speaker, and a 3.7V 2200mAh lithium battery. This prop plays a scary voice or sound effect (easily customizable) and controls a servo. The NeoPixel ring lights up in sync with the audio for a spooky effect!
@@ -57,3 +59,6 @@ A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPix
 16. Type in python convert_raw_to_c_array.py audio.raw audio_data.txt
 
 17. If done correctly after a couple seconds you should see a new files in your folder with your c-array open that in a notepad and copy it into the main code where it says in the Propmaker project
+
+18.  Please make sure after coping and pasting your new audio data to the main arduino file the beginning of it starts with "const uint8_t laughAudioData[] = {"
+with out the quotions 
