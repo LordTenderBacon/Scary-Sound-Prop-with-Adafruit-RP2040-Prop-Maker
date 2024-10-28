@@ -21,10 +21,12 @@ volatile uint16_t currentAmplitude = 0;  // Shared variable to store audio ampli
 
 // Include your laugh audio data directly below
 
+const uint8_t laughAudioData[] = {
+
 //Delete this line and add your code here for your audio data
 
 
-// End Audio Data
+// End Audio Data Above
 
 
 // Specify that the sample rate is 44100 Hz
