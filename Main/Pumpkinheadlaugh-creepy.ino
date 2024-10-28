@@ -1,4 +1,16 @@
+      
+███╗   ███╗███████╗██████╗ ██╗ █████╗      ██████╗ ██████╗ ██╗███████╗███████╗██╗  ██╗   ██╗
+████╗ ████║██╔════╝██╔══██╗██║██╔══██╗    ██╔════╝ ██╔══██╗██║╚══███╔╝╚══███╔╝██║  ╚██╗ ██╔╝
+██╔████╔██║█████╗  ██║  ██║██║███████║    ██║  ███╗██████╔╝██║  ███╔╝   ███╔╝ ██║   ╚████╔╝ 
+██║╚██╔╝██║██╔══╝  ██║  ██║██║██╔══██║    ██║   ██║██╔══██╗██║ ███╔╝   ███╔╝  ██║    ╚██╔╝  
+██║ ╚═╝ ██║███████╗██████╔╝██║██║  ██║    ╚██████╔╝██║  ██║██║███████╗███████╗███████╗██║   
+╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═╝     ╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝╚═╝   
+                                                                                            
+
+//
 // SPDX-License-Identifier: MIT
+// Designed by Jordan Pesavento
+// 
 
 #include <Adafruit_NeoPixel.h>
 #include <Adafruit_LIS3DH.h>
@@ -18,8 +30,6 @@ uint8_t x = 0;
 
 volatile bool tonePlaying = false;       // Global flag to indicate when audio is playing
 volatile uint16_t currentAmplitude = 0;  // Shared variable to store audio amplitude
-
-// Include your laugh audio data directly below
 
 const uint8_t laughAudioData[] = {
 
