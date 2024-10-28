@@ -3,7 +3,7 @@ A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPix
 
 (This Project assumes you know some basic C++, Python and Arduino IDE) I did my best to lay out the steps i took to get the results in this video
 
-![Demo Video]((https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/173318c747a4cea515fbdf2391dd954113082581/Images/demo.mp4))
+[![Watch the Demo](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/main/Images/demo-thumbnail.jpg)](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/173318c747a4cea515fbdf2391dd954113082581/Images/demo.mp4)
 
 # PLEASE NOTE YOU HAVE TO ADD THE AUDIO DATA TO THE MAIN CODE
 There has been an update made with a audio sample txt file called audio_data.txt in the Main folder that contains c-array data for you to use as a demo Just replace the data in the main .ino code where it says
