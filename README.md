@@ -18,8 +18,7 @@ A fun Halloween project using an Adafruit RP2040 Prop-Maker with a 16-LED NeoPix
 - Servo motor (optional)
 
 
-# Follow These instructions below to convert your sound to raw from what ever format its in like MP4 to raw or WAV to raw. 
-# Then we will take that raw data and convert it int C-Arrary for our code to run the sound you want
+# Follow These instructions below to convert your sound to raw from what ever format its in like MP4 to raw or WAV to raw. Then we will take that raw data and convert it int C-Arrary for our code to run the sound you want
 
 1. We need to download Audacity the free version
 
