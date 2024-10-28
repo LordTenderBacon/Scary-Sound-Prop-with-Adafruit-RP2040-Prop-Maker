@@ -43,11 +43,11 @@ Then we will take that raw data and convert it int C-Arrary for our code to run 
 ![Capture of the setup](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/804db1c28a2784631b4bd8cdda2664431bfb2219/Images/Capture.PNG)
 
 
-11. (optional to select trime blank space) I do on certain audios that i have blank playback issues with
+10. (optional to select trime blank space) I do on certain audios that i have blank playback issues with
 
-12. Install Python on your PC if you havnt already
+11. Install Python on your PC if you havnt already
 
- 12.Go to folder where you exported your raw audio data to 
+12.Go to folder where you exported your raw audio data to 
 
 13. create a new text document and label it convert_raw_to_c_array.py
 
