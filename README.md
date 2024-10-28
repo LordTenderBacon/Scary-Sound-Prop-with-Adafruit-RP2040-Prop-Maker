@@ -28,7 +28,7 @@ Put the audio data directly where it says in the main code file. It is in C Arra
 
 2. Once downloaded upload/import your sound and make sure its sounds good.
 
-3. Export your Audio to your computer and name it audio.raw
+3. Export your Audio to your computer and name it audio.raw in the same folder with the python code
 
 4. Select the "Other uncompressed Files"
 
@@ -52,13 +52,13 @@ Put the audio data directly where it says in the main code file. It is in C Arra
 
 12.Go to folder where you exported your raw audio data to 
 
-13. create a new text document and label it convert_raw_to_c_array.py
+13. create a new text document and label it convert_raw_to_h.py
 
 14. open the file and insert the python code from the .py file provided and save it
 
 15. Open a Terminal window and navigate to the folder with your code and files you created using "cd" Exmaple "cd Documents/code"
 
-16. Type in python convert_raw_to_c_array.py audio.raw audio_data.txt
+16. Type in python convert_raw_to_h.py in command promt
 
 17. If done correctly after a couple seconds you should see a new files in your folder with your c-array open that in a notepad and copy it into the main code where it says in the Propmaker project
 
