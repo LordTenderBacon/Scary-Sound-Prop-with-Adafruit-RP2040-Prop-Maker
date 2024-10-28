@@ -38,7 +38,7 @@ Then we will take that raw data and convert it int C-Arrary for our code to run 
 8. Encoding should be signed 8-bit PCM
 
 9. Export Entire Project
-Image Of what your settings should look like on Export
+# Image Of what your settings should look like on Export
 
 ![Capture of the setup](https://github.com/LordTenderBacon/Scary-Sound-Prop-with-Adafruit-RP2040-Prop-Maker/blob/804db1c28a2784631b4bd8cdda2664431bfb2219/Images/Capture.PNG)
 
